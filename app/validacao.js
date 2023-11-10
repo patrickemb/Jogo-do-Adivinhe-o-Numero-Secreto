@@ -33,10 +33,10 @@ function verificaSeOChutePossuiUmValorValido(chute) {
         `
 
     } else if (numero > numeroSecreto) {
-        elementoChute.innerHTML =+ `<div>O número secreto é menor<i class="fa-solid fa-down-long fa-bounce"></i></div>`
+        elementoChute.innerHTML = `<div>O número secreto é menor<i class="fa-solid fa-down-long fa-bounce"></i></div>`
 
     } else if (numero < numeroSecreto) {
-        elementoChute.innerHTML =+ `<div>O número secreto é maior<i class="fa-solid fa-up-long fa-bounce"></i></div>`
+        elementoChute.innerHTML = `<div>O número secreto é maior<i class="fa-solid fa-up-long fa-bounce"></i></div>`
     }
 }
 
